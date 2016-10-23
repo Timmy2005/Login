@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="styles.css"/>
+
+</head>
+
+
+
+<body>
+<div id="main">
+<div id="login-header"></div>
+<img src="pokemon-logo-1.gif" id="login-logo">
+    <form>
+    <table id="login-table">
+        <tbody>
+        <tr>
+            <td></td>
+            <td class="login-form-label" class="table-row">Sign in</td>
+        </tr>
+        <tr>
+            <td class="input-label">Username:</td>
+            <td>
+                <input name="username" type="text" id="username">
+            </td>
+        </tr>
+        <tr>
+            <td class="input-label">Password:</td>
+            <td class="table-row">
+                <input name="password" type="text" id="password">
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td align="left">
+                <input type="button" value="Sign in" onClick="clicked()" class="button" id="login-button">
+            </td>
+
+
+        </tr>
+        </tbody>
+    </table>
+</form>
+<div id="add-account">
+    <form>
+        <table id="add-account-table">
+            <tbody>
+                <tr>
+                    <td></td>
+                    <td class="login-form-label" class="table-row">Add account</td>
+                </tr>
+                <tr>
+                    <td class="input-label">Username:</td>
+                    <td>
+                        <input name="new-username" type="text" id="new-username">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="input-label">Password:</td>
+                    <td>
+                        <input name="new-password" type="text" id="new-password">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="input-label">Confirm password:</td>
+                    <td><input name="confirm-password" type="text" id="confirm password"></td>
+                </tr>
+                <tr>
+
+                </tr>
+            </tbody>
+        </table>
+    </form>
+</div>
+
+</div>
+
+</body>
+</html>

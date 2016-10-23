@@ -1,0 +1,81 @@
+body{
+    background-color: white;
+    font-family: Verdana, Helvetica, sans-serif;
+    color: grey
+}
+
+#main{
+    position: absolute;
+    background: #F8F8F8;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 600px;
+    height: 500px;
+    margin: auto;
+    border-radius: 15px;
+    border: 2px solid white;
+    box-shadow: 1px 1px 4px #aaaaaa;
+
+}
+
+.button{
+    background-color: red;
+    border: 0;
+    padding: 5px 12px;
+    border-radius: 7px;
+    box-shadow: -2px -2px 2px #D84124 inset, 2px 2px 3px #ff5c33 inset
+}
+
+#login-header{
+    background-color: red;
+    min-height: 28px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    padding: 0 10px 10px 10px;
+}
+
+#login-logo{
+    width: 450px;
+    height: 150px;
+}
+
+.login-form-label{
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: black;
+    text-align: left;
+
+}
+
+.input-label{
+    font-size: 12px;
+    font-weight: bold;
+    color: grey;
+    text-align: right;
+
+}
+
+#login-button{
+    margin-top: 10px;
+    font-size: 12px;
+    margin-bottom: 10px
+
+}
+
+#add-account{
+        border-top: 1px solid #E3E4E5;
+}
+
+
+#login-table{
+    margin-left: 172px;
+
+}
+
+#add-account-table{
+    margin-left: 117px
+}
